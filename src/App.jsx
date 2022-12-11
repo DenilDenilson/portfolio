@@ -1,13 +1,14 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import Navbar from "./Components/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world UwU!</h1>
+    <div className="-bg--light_background px-6 py-3">
+      <Navbar />
     </div>
   );
 }
