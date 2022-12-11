@@ -59,3 +59,15 @@
     background-position: 0 50%;
   }
 }
+
+#me-picture {
+  width: 216px;
+  height: 269px;
+  background-image: url(https://i.imgur.com/M9InuM8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: 0px -180px; */
+  /* background-size: cover; */
+  margin: auto;
+  border-radius: 12px;
+}
