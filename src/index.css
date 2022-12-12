@@ -7,6 +7,7 @@
 :root {
   --light_background: #fafafa;
   --light_text-main: #272743;
+  --dark_background: #262525;
 
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -74,4 +75,14 @@
   /* background-size: cover; */
   margin: auto;
   border-radius: 12px;
+}
+
+#project_vis--web1 {
+  width: 256px;
+  height: 192px;
+  background-image: url(https://i.imgur.com/uoerbju.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px 12px 0 0;
 }
