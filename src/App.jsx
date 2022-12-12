@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col gap-6 -bg--light_background px-6 py-3 lg:px-24">
-        <main className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 -bg--light_background px-6 py-3 lg:gap-y-20 lg:px-24 lg:py-12">
+        <main className="flex flex-col gap-6  lg:gap-y-12">
           <Aboutme />
           <Skills></Skills>
           <Projects></Projects>
