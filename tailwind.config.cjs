@@ -5,6 +5,9 @@ const defaulTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    // screens: {
+    //   lg: { max: "1023px" },
+    // },
     extend: {
       colors: {
         // lidht theme mode
