@@ -1,5 +1,6 @@
 import SectionTitles from "./SectionTitles";
 import ProjectsVis from "./ProjectVis";
+import ProjectSlider from "./ProjectSlider";
 
 export default function Projects() {
   return (

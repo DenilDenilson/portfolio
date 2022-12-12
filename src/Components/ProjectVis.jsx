@@ -23,9 +23,34 @@ import Solidworks from "./icons/Solidworks";
 import Jupyter from "./icons/Jupyter";
 import Numpy from "./icons/Numpy";
 import Css from "./icons/Css";
+import ProjectSlider from "./ProjectSlider";
+import { useState } from "react";
 
 export default function ProjectVis(props) {
   const tecKeys = props.tecIcons2;
+
+  const [ProjectSliderCss_width, setProjectSliderCss_width] = useState("w-0");
+  const [ProjectSliderCss_paddingx, setProjectSliderCss_paddingx] =
+    useState("px-0");
+  // const [ProjectSliderClick, setProjectSliderClick] = useState(0);
+
+  const clickProjectVis = () => {
+    if (ProjectSliderCss_width == "w-0") {
+      setProjectSliderCss_width("w-64");
+      setProjectSliderCss_paddingx("px-6");
+      // console.log("click vis-0");
+    } else {
+      setProjectSliderCss_width("w-0");
+      setProjectSliderCss_paddingx("px-0");
+      // console.log("click vis-1");
+    }
+  };
+
+  // const clickProjecSlider = () => {
+  //   setProjectSliderCss_width("w-0");
+  //   setProjectSliderCss_paddingx("px-0");
+  //   console.log("click slider");
+  // };
 
   const tecIcons = {
     Html: <Html width={"32px"} height={"32px"}></Html>,
@@ -63,7 +88,10 @@ export default function ProjectVis(props) {
     }, {});
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div
+      onClick={clickProjectVis}
+      className="relative flex flex-col items-center justify-center"
+    >
       <div id="project_vis--web1"></div>
       <div className="flex h-12 w-64 items-center justify-center gap-12 rounded-b-xl -bg--dark_background">
         {/* <ReactIcon width={"32px"} height={"32px"}></ReactIcon>
@@ -73,6 +101,10 @@ export default function ProjectVis(props) {
         {Object.values(tecIconsFiltered).map((tec) => tec)}
         {/* <ReactIcon width={"32px"} height={"32px"}></ReactIcon> */}
       </div>
+      <ProjectSlider
+        width={ProjectSliderCss_width}
+        paddingx={ProjectSliderCss_paddingx}
+      ></ProjectSlider>
     </div>
   );
 }
