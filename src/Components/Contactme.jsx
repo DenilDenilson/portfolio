@@ -6,7 +6,7 @@ import GithubIcon from "./icons/GithubIcon";
 
 export default function Contactme() {
   return (
-    <section className="flex flex-col gap-3">
+    <section className="mx-auto flex max-w-md flex-col gap-3">
       <SectionTitles title="Conctact me"></SectionTitles>
       <ul className="flex justify-between">
         <li>

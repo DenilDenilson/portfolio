@@ -27,7 +27,7 @@ import Css from "./icons/Css";
 
 export default function Skills() {
   return (
-    <section className="flex w-full flex-col items-center gap-3">
+    <section className="mx-auto flex w-full max-w-md flex-col items-center gap-3">
       <SectionTitle title="Skills" />
       <div className="grid w-full grid-cols-5 grid-rows-5 content-center justify-center gap-3">
         <Html

@@ -25,7 +25,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="relative flex justify-between px-6 py-3">
+    <nav className="relative mx-auto flex max-w-md justify-between px-6 py-3 md:px-0">
       <a
         href="https://www.youtube.com/channel/UCkYXAoEQjQIIbOjgMAz4rYw"
         target="_blank"

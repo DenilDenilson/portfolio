@@ -10,7 +10,7 @@ export default function Aboutme() {
         </h3>
       </hgroup>
       <div id="me-picture"></div>
-      <p className="text-left -font--nunito text-xs font-medium -text--light_text-main">
+      <p className="mx-auto max-w-md text-left -font--nunito text-xs font-medium -text--light_text-main">
         Hello my name is Denilson Trujillo Salazar, I am passionate about
         technology. I have special interest in the development of software,
         hardware and the creation of IA and machine learning models with data
