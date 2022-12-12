@@ -11,17 +11,19 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="flex flex-col gap-6 -bg--light_background px-6 py-3">
+    <>
       <Navbar />
-      <main className="flex flex-col gap-6">
-        <Aboutme />
-        <Skills></Skills>
-        <Projects></Projects>
-      </main>
-      <footer>
-        <Contactme></Contactme>
-      </footer>
-    </div>
+      <div className="flex flex-col gap-6 -bg--light_background px-6 py-3">
+        <main className="flex flex-col gap-6">
+          <Aboutme />
+          <Skills></Skills>
+          <Projects></Projects>
+        </main>
+        <footer>
+          <Contactme></Contactme>
+        </footer>
+      </div>
+    </>
   );
 }
 
