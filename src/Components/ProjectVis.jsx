@@ -53,6 +53,34 @@ export default function ProjectVis(props) {
   // };
 
   const tecIcons = {
+    Html: <Html width={"32px"} height={"32px"}></Html>,
+    Windows: <Windows width={"32px"} height={"32px"}></Windows>,
+    Arduino: <Arduino width={"32px"} height={"32px"}></Arduino>,
+    C: <C width={"32px"} height={"32px"}></C>,
+    Cplusplus: <Cplusplus width={"32px"} height={"32px"}></Cplusplus>,
+    Vscode: <Vscode width={"32px"} height={"32px"}></Vscode>,
+    Powerbi: <Powerbi width={"32px"} height={"32px"}></Powerbi>,
+    Sqlserver: <Sqlserver width={"32px"} height={"32px"}></Sqlserver>,
+    Js: <Js width={"32px"} height={"32px"}></Js>,
+    Sass: <Sass width={"32px"} height={"32px"}></Sass>,
+    Sklearn: <Sklearn></Sklearn>,
+    Python: <Python width={"32px"} height={"32px"}></Python>,
+    Pandas: <Pandas width={"32px"} height={"32px"}></Pandas>,
+    Matplotlib: <Matplotlib width={"32px"} height={"32px"}></Matplotlib>,
+    Seaborn: <Seaborn width={"32px"} height={"32px"}></Seaborn>,
+    Anaconda: <Anaconda width={"32px"} height={"32px"}></Anaconda>,
+    Excel: <Excel width={"32px"} height={"32px"}></Excel>,
+    Figma: <Figma width={"32px"} height={"32px"}></Figma>,
+    Solidworks: <Solidworks width={"32px"} height={"32px"}></Solidworks>,
+    Jupyter: <Jupyter width={"32px"} height={"32px"}></Jupyter>,
+    Numpy: <Numpy width={"32px"} height={"32px"}></Numpy>,
+    ReactIcon: <ReactIcon width={"32px"} height={"32px"}></ReactIcon>,
+    Tailwind: <Tailwind width={"32px"} height={"32px"}></Tailwind>,
+    Git: <Git width={"32px"} height={"32px"}></Git>,
+    Css: <Css width={"32px"} height={"32px"}></Css>,
+  };
+
+  const tecIcons2 = {
     Html: <Html width={"48px"} height={"48px"}></Html>,
     Windows: <Windows width={"48px"} height={"48px"}></Windows>,
     Arduino: <Arduino width={"48px"} height={"48px"}></Arduino>,
@@ -87,19 +115,34 @@ export default function ProjectVis(props) {
       return obj;
     }, {});
 
+  const tecIconsFiltered2 = Object.entries(tecIcons2)
+    .filter(([key, value]) => tecKeys.includes(key))
+    .reduce((obj, [key, value]) => {
+      obj[key] = value;
+      return obj;
+    }, {});
+
   return (
     <div
       onClick={clickProjectVis}
       className="relative flex flex-col items-center justify-center"
     >
       <div id="project_vis--web1"></div>
-      <div className="flex h-12 w-64 items-center justify-center gap-12 rounded-b-xl -bg--dark_background lg:h-auto lg:w-[512px] lg:gap-28 lg:py-4">
-        {/* <ReactIcon width={"48px"} height={"48px"}></ReactIcon>
-        <Tailwind width={"48px"} height={"48px"}></Tailwind>
-        <Git width={"48px"} height={"48px"}></Git> */}
+      <div className="flex h-12 w-64 items-center justify-center gap-12 rounded-b-xl -bg--dark_background lg:invisible lg:absolute lg:h-auto lg:w-[512px] lg:gap-28 lg:py-4">
+        {/* <ReactIcon width={"32px"} height={"32px"}></ReactIcon>
+        <Tailwind width={"32px"} height={"32px"}></Tailwind>
+        <Git width={"32px"} height={"32px"}></Git> */}
         {/* {tecs.map((tec) => Object.values(tec))} */}
         {Object.values(tecIconsFiltered).map((tec) => tec)}
-        {/* <ReactIcon width={"48px"} height={"48px"}></ReactIcon> */}
+        {/* <ReactIcon width={"32px"} height={"32px"}></ReactIcon> */}
+      </div>
+      <div className="invisible absolute flex h-12 w-64 items-center justify-center gap-12 rounded-b-xl -bg--dark_background lg:visible lg:relative lg:h-auto lg:w-[512px] lg:gap-28 lg:py-4">
+        {/* <ReactIcon width={"32px"} height={"32px"}></ReactIcon>
+        <Tailwind width={"32px"} height={"32px"}></Tailwind>
+        <Git width={"32px"} height={"32px"}></Git> */}
+        {/* {tecs.map((tec) => Object.values(tec))} */}
+        {Object.values(tecIconsFiltered2).map((tec) => tec)}
+        {/* <ReactIcon width={"32px"} height={"32px"}></ReactIcon> */}
       </div>
       <ProjectSlider
         width={ProjectSliderCss_width}
