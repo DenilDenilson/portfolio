@@ -2,7 +2,7 @@ export default function Matplotlib(props) {
   return (
     // <!-- <?xml version="1.0" encoding="UTF-8"?> -->
     <svg
-      className="justify-self-center"
+      className={props.Css}
       width={props.width}
       height={props.height}
       viewBox="0 0 256 256"

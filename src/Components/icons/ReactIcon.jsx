@@ -1,7 +1,7 @@
 export default function ReactIcon(props) {
   return (
     <svg
-      className="justify-self-center"
+      className={props.Css}
       width={props.width}
       height={props.height}
       fill="#00dcff"

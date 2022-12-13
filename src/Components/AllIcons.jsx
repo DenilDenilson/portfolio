@@ -30,123 +30,123 @@ export default function AllIcons(props) {
       className={`grid w-full grid-cols-5 grid-rows-5 content-center justify-center gap-3 lg:gap-y-12 ${props.extraCss}`}
     >
       <Html
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(255,109,0,0.38)] lg:hover:shadow-[0px_0px_64px_#FF6D00]"
         height={props.size}
         width={props.size}
       ></Html>
       <Windows
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(25,118,210,0.38)] lg:hover:shadow-[0px_0px_64px_#1976d2]"
         height={props.size}
         width={props.size}
       />
       <Arduino
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(0,150,136,0.38)] lg:hover:shadow-[0px_0px_64px_#009688]"
         height={props.size}
         width={props.size}
       ></Arduino>
       <C
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(40,53,147,0.38)] lg:hover:shadow-[0px_0px_64px_#283593]"
         height={props.size}
         width={props.size}
       ></C>
       <Cplusplus
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(66,127,217,0.38)] lg:hover:shadow-[0px_0px_64px_#427fd9]"
         height={props.size}
         width={props.size}
       ></Cplusplus>
       <Vscode
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(41,182,246,0.38)] lg:hover:shadow-[0px_0px_64px_#29b6f6]"
         height={props.size}
         width={props.size}
       ></Vscode>
       <Powerbi
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(255,193,7,0.38)] lg:hover:shadow-[0px_0px_64px_#ffc107]"
         height={props.size}
         width={props.size}
       ></Powerbi>
       <Sqlserver
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(183,28,28,0.38)] lg:hover:shadow-[0px_0px_64px_#b71c1c]"
         height={props.size}
         width={props.size}
       ></Sqlserver>
       <Js
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(255,214,0,0.38)] lg:hover:shadow-[0px_0px_64px_#ffd600]"
         height={props.size}
         width={props.size}
       ></Js>
       <Git
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(244,81,30,0.38)] lg:hover:shadow-[0px_0px_64px_#f4511e]"
         height={props.size}
         width={props.size}
       ></Git>
       <ReactIcon
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(0,220,255,0.38)] lg:hover:shadow-[0px_0px_64px_#00dcff]"
         height={props.size}
         width={props.size}
       ></ReactIcon>
       <Sass
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(240,98,146,0.38)] lg:hover:shadow-[0px_0px_64px_#f06292]"
         height={props.size}
         width={props.size}
       ></Sass>
-      <Sklearn className="justify-self-center"></Sklearn>
+      <Sklearn Css="h-8 w-[59px] justify-self-center lg:h-24 lg:w-[177px] rounded-[32px] lg:hover:bg-[rgba(248,154,54,0.38)] lg:hover:shadow-[0px_0px_64px_#f89a36]"></Sklearn>
       <Python
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(2,119,189,0.38)] lg:hover:shadow-[0px_0px_64px_#0277bd]"
         height={props.size}
         width={props.size}
       ></Python>
       <Pandas
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(26,35,126,0.38)] lg:hover:shadow-[0px_0px_64px_#1a237e]"
         height={props.size}
         width={props.size}
       ></Pandas>
       <Matplotlib
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(41,255,206,0.38)] lg:hover:shadow-[0px_0px_64px_#29ffce]"
         height={props.size}
         width={props.size}
       ></Matplotlib>
       <Seaborn
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(175,218,210,0.38)] lg:hover:shadow-[0px_0px_64px_#afdad2]"
         height={props.size}
         width={props.size}
       ></Seaborn>
       <Tailwind
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(0,172,193,0.38)] lg:hover:shadow-[0px_0px_64px_#00acc1]"
         height={props.size}
         width={props.size}
       ></Tailwind>
       <Anaconda
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(80,209,51,0.38)] lg:hover:shadow-[0px_0px_64px_#50d133]"
         height={props.size}
         width={props.size}
       ></Anaconda>
       <Excel
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(25,172,101,0.38)] lg:hover:shadow-[0px_0px_64px_#19AC65]"
         height={props.size}
         width={props.size}
       ></Excel>
       <Figma
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(124,77,255,0.38)] lg:hover:shadow-[0px_0px_64px_#7c4dff]"
         height={props.size}
         width={props.size}
       ></Figma>
       <Solidworks
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(255,61,0,0.38)] lg:hover:shadow-[0px_0px_64px_#ff3d00]"
         height={props.size}
         width={props.size}
       ></Solidworks>
       <Jupyter
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(240,151,1,0.38)] lg:hover:shadow-[0px_0px_64px_#f09701]"
         height={props.size}
         width={props.size}
       ></Jupyter>
       <Numpy
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(68,138,255,0.38)] lg:hover:shadow-[0px_0px_64px_#448AFF]"
         height={props.size}
         width={props.size}
       ></Numpy>
       <Css
-        className="justify-self-center"
+        Css="justify-self-center rounded-[32px] lg:hover:bg-[rgba(42,164,244,0.38)] lg:hover:shadow-[0px_0px_64px_#2aa4f4]"
         height={props.size}
         width={props.size}
       ></Css>

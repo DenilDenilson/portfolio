@@ -1,7 +1,7 @@
 export default function Sqlserver(props) {
   return (
     <svg
-      className="justify-self-center"
+      className={props.Css}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 48 48"
       width={props.width}

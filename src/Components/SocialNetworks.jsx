@@ -6,7 +6,7 @@ import GithubIcon from "./icons/GithubIcon";
 export default function SocialNetworks(props) {
   return (
     <ul
-      className={`flex w-full max-w-md flex-wrap justify-between lg:max-w-none ${props.extraCss}`}
+      className={`flex w-full max-w-md items-center justify-between lg:max-w-none lg:justify-between lg2:flex-wrap ${props.extraCss}`}
     >
       <li className="flex items-center">
         <a
