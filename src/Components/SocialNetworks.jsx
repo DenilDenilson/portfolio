@@ -6,7 +6,8 @@ import GithubIcon from "./icons/GithubIcon";
 export default function SocialNetworks(props) {
   return (
     <ul
-      className={`flex w-full max-w-md items-center justify-between lg:max-w-none lg:justify-between lg2:flex-wrap ${props.extraCss}`}
+      className={`flex w-full items-center justify-between lg:max-w-none lg:justify-between lg2:flex-wrap ${props.extraCss}`}
+      // className={`flex items-center justify-center${props.extraCss}`}
     >
       <li className="flex items-center">
         <a
@@ -44,7 +45,7 @@ export default function SocialNetworks(props) {
           +51 933 156 5**
         </p>
       </li>
-      <li className="flex w-[309px] items-center">
+      <li className="flex items-center">
         <a target="_blank" href="https://github.com/DenilDenilson">
           <GithubIcon width={props.size} height={props.size}></GithubIcon>
         </a>
