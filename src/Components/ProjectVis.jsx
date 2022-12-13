@@ -136,7 +136,7 @@ export default function ProjectVis(props) {
         {Object.values(tecIconsFiltered).map((tec) => tec)}
         {/* <ReactIcon width={"32px"} height={"32px"}></ReactIcon> */}
       </div>
-      <div className="invisible absolute flex h-12 w-64 items-center justify-center gap-12 rounded-b-xl -bg--dark_background lg:visible lg:relative lg:h-auto lg:w-[512px] lg:gap-28 lg:py-4">
+      <div className="invisible absolute flex h-12 w-64 items-center justify-center gap-12 rounded-b-xl -bg--dark_background lg:visible lg:relative lg:h-auto lg:w-[512px] lg:gap-28 lg:py-4 lg2:invisible lg2:absolute">
         {/* <ReactIcon width={"32px"} height={"32px"}></ReactIcon>
         <Tailwind width={"32px"} height={"32px"}></Tailwind>
         <Git width={"32px"} height={"32px"}></Git> */}

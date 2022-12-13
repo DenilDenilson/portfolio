@@ -4,12 +4,16 @@ import SocialNetworks from "./SocialNetworks";
 export default function Contactme() {
   return (
     <section className="mx-auto flex max-w-md flex-col items-center gap-3 lg:max-w-[832px] lg:gap-6">
-      <SectionTitles title="Conctact me"></SectionTitles>
+      <SectionTitles
+        extraCss="lg2:text-6xl"
+        title="Conctact me"
+      ></SectionTitles>
       <SocialNetworks
         size="48px"
         extraCss="lg:invisible lg:absolute"
       ></SocialNetworks>
       <SocialNetworks
+        visibility="absolute invisible lg2:relative lg2:visible"
         size="96px"
         extraCss="absolute invisible lg:relative lg:visible"
       ></SocialNetworks>

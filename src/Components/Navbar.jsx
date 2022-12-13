@@ -27,12 +27,12 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="relative mx-auto flex max-w-md justify-between px-6 py-3 md:px-0 lg:max-w-none lg:px-24 lg:pt-8 lg:pb-0">
+    <nav className="relative mx-auto flex max-w-md justify-between px-6 py-3 md:px-0 lg:max-w-none lg:px-24 lg:pt-8 lg:pb-0 lg2:max-w-none">
       <a
         href="https://www.youtube.com/channel/UCkYXAoEQjQIIbOjgMAz4rYw"
         target="_blank"
         id="denildenilson"
-        className="-font--nunito text-base font-extrabold italic leading-6 tracking-widest text-transparent lg:text-2xl"
+        className="-font--nunito text-base font-extrabold italic leading-6 tracking-widest text-transparent lg:text-2xl lg2:text-2xl"
       >
         @DenilDenilson
       </a>
