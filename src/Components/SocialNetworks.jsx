@@ -5,7 +5,9 @@ import GithubIcon from "./icons/GithubIcon";
 
 export default function SocialNetworks(props) {
   return (
-    <ul className={`flex justify-between gap-24 ${props.extraCss}`}>
+    <ul
+      className={`flex w-full max-w-md justify-between lg:max-w-none ${props.extraCss}`}
+    >
       <li>
         <a
           target="_blank"
