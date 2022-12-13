@@ -1,7 +1,7 @@
 export default function ProjectSlider(props) {
   return (
     <div
-      className={`$h-60 absolute right-9 flex h-60 ${props.width} flex-col items-center justify-between overflow-hidden rounded-xl -bg--dark_background ${props.paddingx} py-4 leading-5 opacity-95 transition-[width] duration-300`}
+      className={`$h-60 absolute right-0 flex h-60 ${props.width} flex-col items-center justify-between overflow-hidden rounded-xl -bg--dark_background ${props.paddingx} py-4 leading-5 opacity-95 transition-[width] duration-300`}
     >
       <h5 className="mx-6 w-full border-b-2 pb-1 -font--nunito text-xl font-bold -text--light_background">
         Calculator

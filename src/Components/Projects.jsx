@@ -4,7 +4,7 @@ import ProjectSlider from "./ProjectSlider";
 
 export default function Projects() {
   return (
-    <section className="mx-auto flex max-w-md flex-col gap-3">
+    <section className="mx-auto flex max-w-md flex-col items-center justify-center gap-3">
       <SectionTitles title="Projects"></SectionTitles>
       <ProjectsVis
         // tecIcons2={{
