@@ -12,8 +12,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="flex flex-col gap-6 -bg--light_background px-6 py-3 lg:gap-y-20 lg:px-24 lg:py-12">
-        <main className="flex flex-col gap-6  lg:gap-y-12">
+      <div className="flex flex-col gap-6 -bg--light_background px-6 py-3 lg:gap-y-20 lg:px-24 lg:py-12 lg2:py-32">
+        <main className="flex flex-col gap-6  lg:gap-y-12 lg2:gap-y-32">
           <Aboutme />
           <Skills></Skills>
           <Projects></Projects>
