@@ -5,7 +5,10 @@ import SectionTitle from "./SectionTitles";
 
 export default function Aboutme() {
   return (
-    <section className="flex flex-col gap-3 lg:flex-row lg:justify-between lg2:justify-between">
+    <section
+      id="Aboutme"
+      className="flex flex-col gap-3 lg:flex-row lg:justify-between lg2:justify-between"
+    >
       <hgroup className="lg:invisible lg:absolute lg:self-end lg:justify-self-center">
         <SectionTitle title="Denilson Trujillo Salazar"></SectionTitle>
         <SectionSubtitle subtitle="Data Scientist / Software and Hardware Developer"></SectionSubtitle>

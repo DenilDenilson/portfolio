@@ -5,16 +5,16 @@ export default function Menu(props) {
       className={`absolute top-9 left-0 flex ${props.height} w-full flex-col items-center justify-center gap-6 overflow-hidden -bg--light_background shadow-[0px_20px_16px_#272743] transition-[height] duration-300 lg:top-0 lg:w-min lg:flex-row lg:shadow-none`}
     >
       <li className="-font--nunito text-xl font-bold italic -text--light_text-main">
-        About me
+        <a href="#Aboutme">About me</a>
       </li>
       <li className="-font--nunito text-xl font-bold italic -text--light_text-main">
-        Skills
+        <a href="#Skills">Skills</a>
       </li>
       <li className="-font--nunito text-xl font-bold italic -text--light_text-main">
-        Projects
+        <a href="#Projects">Projects</a>
       </li>
       <li className="-font--nunito text-xl font-bold italic -text--light_text-main">
-        Contact me
+        <a href="#Contacme">Contact me</a>
       </li>
     </ul>
   );

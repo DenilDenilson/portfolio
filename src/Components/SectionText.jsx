@@ -10,7 +10,15 @@ export default function SectionText(props) {
       consider myself a person of great intellectual curiosity and a fast
       learner. I love cats 😸 and I give my best when cooking 😶. I have a goal
       to be and work with the best professionals in technology. <br></br> <br />
-      If you want to get to know me better then Download Cv
+      If you want to get to know me better then{" "}
+      <a
+        className="underline"
+        href="../docs/Cv - Denilson Trujillo Salazar.pdf"
+        download
+      >
+        {" "}
+        Download Cv
+      </a>
     </p>
   );
 }

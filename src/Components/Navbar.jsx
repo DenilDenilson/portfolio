@@ -7,22 +7,24 @@ export default function Navbar() {
   const [BurguerIconCss, setBurguerIconCss] = useState(
     "lg:absolute lg:invisible"
   );
-  const [CloseIconCss, setCloseIconCss] = useState("invisible absolute");
+  const [CloseIconCss, setCloseIconCss] = useState(
+    "invisible absolute  lg:absolute lg:invisible"
+  );
   const [MenuHeight, setMenuHeight] = useState("h-0");
 
   const clickBurguer = () => {
     // console.log("click burguer");
     // console.log(BurguerIconCss);
-    setBurguerIconCss("absolute invisible");
-    setCloseIconCss("");
+    setBurguerIconCss("absolute invisible lg:absolute lg:invisible");
+    setCloseIconCss("lg:absolute lg:invisible");
     setMenuHeight("h-96");
   };
 
   const clickClose = () => {
     // console.log("click close");
     // console.log(CloseIconCss);
-    setCloseIconCss("absolute invisible");
-    setBurguerIconCss("");
+    setCloseIconCss("absolute invisible lg:absolute lg:invisible");
+    setBurguerIconCss("lg:absolute lg:invisible");
     setMenuHeight("h-0");
   };
 
@@ -40,17 +42,17 @@ export default function Navbar() {
         className="invisible absolute lg:visible lg:relative lg:flex lg:gap-12"
         id="menu-desk"
       >
-        <li className="-font--nunito text-2xl font-black italic -text--light_text-main">
-          About me
+        <li className="-font--nunito text-2xl font-bold italic -text--light_text-main hover:font-black">
+          <a href="#Aboutme">About me</a>
         </li>
-        <li className="-font--nunito text-2xl font-bold italic -text--light_text-main">
-          Skills
+        <li className="-font--nunito text-2xl font-bold italic -text--light_text-main  hover:font-black">
+          <a href="#Skills">Skills</a>
         </li>
-        <li className="-font--nunito text-2xl font-bold italic -text--light_text-main">
-          Projects
+        <li className="-font--nunito text-2xl font-bold italic -text--light_text-main hover:font-black">
+          <a href="#Projects">Projects</a>
         </li>
-        <li className="-font--nunito text-2xl font-bold italic -text--light_text-main">
-          Contact me
+        <li className="-font--nunito text-2xl font-bold italic -text--light_text-main hover:font-black">
+          <a href="#Contactme">Contact me</a>
         </li>
       </ul>
       <Burguer click={clickBurguer} BurguerIconCss={BurguerIconCss}></Burguer>

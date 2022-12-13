@@ -3,7 +3,10 @@ import AllIcons from "./AllIcons";
 
 export default function Skills() {
   return (
-    <section className="mx-auto flex w-full max-w-md flex-col items-center gap-3 lg:max-w-none lg:gap-6">
+    <section
+      id="Skills"
+      className="mx-auto flex w-full max-w-md flex-col items-center gap-3 lg:max-w-none lg:gap-6"
+    >
       <SectionTitle extraCss="lg2:text-6xl" title="Skills" />
       <AllIcons extraCss="lg:invisible lg:absolute" size="32px"></AllIcons>
       <AllIcons
